@@ -1,0 +1,8 @@
+com/vitamax/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.vitamax.book.springboot.domain.posts.PostsRepositoryTest
+com/vitamax/book/springboot/web/HelloControllerTest.java
+ com.vitamax.book.springboot.web.HelloControllerTest
+com/vitamax/book/springboot/web/dto/HelloResponseDtoTest.java
+ com.vitamax.book.springboot.web.dto.HelloResponseDtoTest
+com/vitamax/book/springboot/web/PostsApiControllerTest.java
+ com.vitamax.book.springboot.web.PostsApiControllerTest
