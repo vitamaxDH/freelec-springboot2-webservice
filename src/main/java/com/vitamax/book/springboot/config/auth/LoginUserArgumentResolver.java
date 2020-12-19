@@ -1,6 +1,5 @@
 package com.vitamax.book.springboot.config.auth;
 
-import com.vitamax.book.springboot.config.auth.LoginUser;
 import com.vitamax.book.springboot.config.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;

@@ -30,10 +30,10 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 
         // 현재 로그인 진행중인 서비스. Google / Naver / Facebook ...
         String registrationId = userRequest.getClientRegistration().getRegistrationId();
-        String userNameAtributeName = userRequest.getClientRegistration().getProviderDetails()
+        String userNameAttributeName = userRequest.getClientRegistration().getProviderDetails()
                 .getUserInfoEndpoint().getUserNameAttributeName();
 
-        OAuthAttributes attributes = OAuthAttributes.of(registrationId, userNameAtributeName,
+        OAuthAttributes attributes = OAuthAttributes.of(registrationId, userNameAttributeName,
                                                         oAuth2User.getAttributes());
 
         User user = saveOrUpdate(attributes);
